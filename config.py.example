@@ -1,0 +1,29 @@
+debug = True
+#debug = False
+
+colors = {
+    'SERVER_RUNNING': (15, 200, 255), # Light Blue
+    'SERVER_STOP': (255, 0, 0), # Red
+    'SERVER_START': (0, 255, 0), # Green
+    'SERVER_OFFLINE' : (255, 100 , 0) # Yellow
+}
+
+packages = ['urequests']
+
+neopixels = {
+    'pin': , # Pin you want to use to address the LEDs
+    'pixels': # Number or WS2812 LEDs
+}
+
+buttons = {
+    'on': , # Pin you want to use to read the on button
+    "off":  # Pin you want to use to read the off button
+}
+
+secrets = {
+    'SSID': '',
+    'PASS': '',
+    "START_SERVER_URL": '',
+    "STOP_SERVER_URL" : '',
+    "SERVER_IP_ADDRESS": '
+    }
